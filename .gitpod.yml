@@ -10,7 +10,6 @@ ports:
   - port: 8081-8090
     onOpen: ignore
 
-# vscode:
-#   extensions:
-#   - hashicorp.terraform
-#   - ms-python.python
+vscode:
+  extensions:
+  - docker
