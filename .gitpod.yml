@@ -1,0 +1,16 @@
+image:
+  file: .gitpod/gitpod.Dockerfile
+
+tasks:
+  - command: docker ps
+
+ports:
+  - port: 8080
+    onOpen: open-preview
+  - port: 8081-8090
+    onOpen: ignore
+
+# vscode:
+#   extensions:
+#   - hashicorp.terraform
+#   - ms-python.python
