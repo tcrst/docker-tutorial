@@ -10,6 +10,6 @@ ports:
   - port: 8081-8090
     onOpen: ignore
 
-vscode:
-  extensions:
-  - docker
+# vscode:
+#   extensions:
+#   - docker
